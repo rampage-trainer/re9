@@ -84,7 +84,7 @@ export default function Home() {
             <li>Download the ZIP File</li>
             <li>Extract the ZIP File</li>
             <li>
-              Copy <code>RampageFiles</code> and <code>Rampage.asi</code> into your Plugins Folder of REFramework
+              Copy <code>RampageFiles</code> and <code>RampageRE9.dll</code> into your Plugins Folder of REFramework
             </li>
           </ol>
           <p className="text-xs text-muted-foreground">
