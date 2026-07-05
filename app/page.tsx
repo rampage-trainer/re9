@@ -64,6 +64,12 @@ export default function Home() {
               >
                 <Download className="size-4" /> Download Preview
               </Link>
+              <Link
+                href="https://github.com/praydog/REFramework-nightly/releases"
+                className="inline-flex items-center gap-2 rounded-md bg-primary text-primary-foreground px-4 py-2 text-sm font-medium hover:bg-primary/90"
+              >
+                <Download className="size-4" /> Download REFramework
+              </Link>
             </div>
           </div>
         </div>
@@ -87,7 +93,7 @@ export default function Home() {
         </div>
 
         <div id="changelog" className="grid gap-6">
-          <h2 className="text-xl font-semibold tracking-tight">Changelog</h2>
+          <h2 className="text-xl font-semibold tracking-tight">Requirements</h2>
           <ul className="space-y-2 text-sm leading-relaxed list-disc pl-5">
             {changelogItems.map((item, idx) => (
               <li key={idx}>{item}</li>
